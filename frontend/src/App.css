@@ -84,6 +84,15 @@
 
 .login {
   position: absolute;
+  right: 110px;
+  color: #140606;
+  transition-duration: 300ms;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.signup{
+  position: absolute;
   right: 30px;
   color: #140606;
   transition-duration: 300ms;
@@ -98,12 +107,18 @@
   margin: -5px -5px; /* Adjust margin to keep the link in the same position */
   color: #f9f6f5; /* Optional: Change text color on hover */
 }
-/* 
+ 
 .login:hover {
   color: #ff6347;
   text-underline-offset: 7px;
   text-decoration: underline;
-} */
+} 
+
+.signup:hover {
+  color: #ff6347;
+  text-underline-offset: 7px;
+  text-decoration: underline;
+}
 
 .shop {
   padding: 20px 40px;
