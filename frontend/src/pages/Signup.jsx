@@ -39,9 +39,9 @@ const Signup = () => {
       <form className="signup-form" onSubmit={handleSubmit}>
         <h2>Sign Up</h2>
 
-        <label htmlFor="username">Username:</label>
+        <label htmlFor="username">Phone No.</label>
         <input
-          placeholder='Enter username'
+          placeholder='Enter Phone no.'
           type="text"
           id="username"
           name="username"
@@ -50,9 +50,9 @@ const Signup = () => {
           required
         />
 
-        <label htmlFor="password">Password:</label>
+        <label htmlFor="password">Enter OTP:</label>
         <input
-          placeholder='Enter password'
+          placeholder='Enter OTP'
           type="password"
           id="password"
           name="password"
@@ -73,7 +73,7 @@ const Signup = () => {
         />
 
         <label htmlFor="interests">Interests:</label>
-        <select
+        {/* <select
           id="interests"
           name="interests"
           multiple
@@ -92,17 +92,14 @@ const Signup = () => {
           <option value="fort">Fort</option>
           <option value="beach">Beach</option>
           <option value="mountain">Mountain</option>
-        </select>
-
-        <label htmlFor="idProof">Identity Proof (Image):</label>
+        </select> */}
         <input
-          type="file"
-          id="idProof"
-          name="idProof"
-          accept="image/*"
-          onChange={handleChange}
-          required
-        />
+          id="interests"
+          name="interests"
+          placeholder='Enter your interests'
+          value={formData.interests}
+          onChange={handleChange}/>
+
 
         <button type="submit">Sign Up</button>
       </form>
@@ -111,4 +108,5 @@ const Signup = () => {
 };
 
 export default Signup;
+
 

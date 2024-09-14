@@ -28,9 +28,9 @@ const Login = () => {
       <form className="login-form" onSubmit={handleSubmit}>
         <h2>Login</h2>
 
-        <label htmlFor="username">Username:</label>
+        <label htmlFor="username">Phone No.</label>
         <input
-          placeholder='Enter password'
+          placeholder='Enter phone no.'
           type="text"
           id="username"
           name="username"
@@ -39,9 +39,9 @@ const Login = () => {
           required
         />
 
-        <label htmlFor="password">Password:</label>
+        <label htmlFor="password">OTP</label>
         <input
-          placeholder='Enter password'
+          placeholder='Enter OTP'
           type="password"
           id="password"
           name="password"

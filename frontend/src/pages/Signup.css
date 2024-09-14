@@ -39,9 +39,14 @@
     border: 1px solid #ccc;
     width: 100%;
   }
+
+  .interests{
+    height : 20vh;
+    margin-bottom: 10px;
+  }
   
-  .signup-form select {
-    height: 100px;
+  .signup-form input {
+    height: 40px;
   }
   
   .signup-form button {
