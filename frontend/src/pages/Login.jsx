@@ -30,6 +30,7 @@ const Login = () => {
 
         <label htmlFor="username">Username:</label>
         <input
+          placeholder='Enter password'
           type="text"
           id="username"
           name="username"
@@ -40,6 +41,7 @@ const Login = () => {
 
         <label htmlFor="password">Password:</label>
         <input
+          placeholder='Enter password'
           type="password"
           id="password"
           name="password"
