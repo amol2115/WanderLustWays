@@ -40,6 +40,11 @@ const Navbar = () => {
                             Sign Up
                         </Link>
                     </li>
+                    <li>
+                        <Link to="/chatbot" className="nav-link">
+                            Chat with us
+                        </Link>
+                    </li>
                 </ul>
             </nav>
         </header>

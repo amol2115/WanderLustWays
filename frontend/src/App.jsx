@@ -9,6 +9,7 @@ import Tourist from "./pages/Tourist";
 import Travels from "./pages/Travels";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Chatbot from "./pages/Chatbot";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/touristdestinations" element={<Tourist />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Signup />} />
+                <Route path="/chatbot" element={<Chatbot />} />
 
             </Routes>
         </Router>

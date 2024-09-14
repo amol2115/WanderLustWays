@@ -39,6 +39,17 @@ const Signup = () => {
       <form className="signup-form" onSubmit={handleSubmit}>
         <h2>Sign Up</h2>
 
+        <label htmlFor="name">Name:</label>
+        <input
+          placeholder='Enter your name'
+          type="text"
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+          required
+        />
+
         <label htmlFor="username">Phone No.</label>
         <input
           placeholder='Enter Phone no.'
