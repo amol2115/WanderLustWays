@@ -84,7 +84,7 @@
 
 .login {
   position: absolute;
-  right: 110px;
+  right: 120px;
   color: #140606;
   transition-duration: 300ms;
   text-decoration: none;
@@ -109,15 +109,19 @@
 }
  
 .login:hover {
-  color: #ff6347;
-  text-underline-offset: 7px;
-  text-decoration: underline;
+  background-color: #e98c29;
+  border-radius: 5px;
+  padding: 9px 15px; /* Increase padding on hover */
+  margin: -5px -5px; /* Adjust margin to keep the link in the same position */
+  color: #f9f6f5;
 } 
 
 .signup:hover {
-  color: #ff6347;
-  text-underline-offset: 7px;
-  text-decoration: underline;
+  background-color: #e98c29;
+  border-radius: 5px;
+  padding: 9px 15px; /* Increase padding on hover */
+  margin: -5px -5px; /* Adjust margin to keep the link in the same position */
+  color: #f9f6f5;
 }
 
 .shop {
