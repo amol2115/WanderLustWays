@@ -41,6 +41,7 @@ const Signup = () => {
 
         <label htmlFor="username">Username:</label>
         <input
+          placeholder='Enter username'
           type="text"
           id="username"
           name="username"
@@ -51,6 +52,7 @@ const Signup = () => {
 
         <label htmlFor="password">Password:</label>
         <input
+          placeholder='Enter password'
           type="password"
           id="password"
           name="password"
@@ -61,6 +63,7 @@ const Signup = () => {
 
         <label htmlFor="email">Email ID:</label>
         <input
+        placeholder='Enter Email ID'
           type="email"
           id="email"
           name="email"
